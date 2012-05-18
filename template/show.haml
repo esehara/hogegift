@@ -1,0 +1,30 @@
+html
+  head
+    <script type="text/javascript" src="javascript/twit.js"></script>
+    > link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'
+    > link rel='stylesheet' href='css/main.css' type='text/css'
+    title | {whatisgift}gift - {whatisgiftjp}支援プラットフォーム
+  body
+    #head
+      ul
+        li#title 
+          a href="index.py" | {whatisgift}gift
+          <span class="little"> - {whatisgiftjp}支援プラットフォーム - </span>
+        li.headerlink
+          a href="index.py" | ホーム
+        li.headerlink
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="esehara" data-lang="ja">皆に教える</a>
+    #body
+      h1
+        {name}は、{whatisgiftjp}を支援してくださる<br />
+        サポーターを探しています
+      #left
+        > img src="http://api.twitter.com/1/users/profile_image/{twitter}.json?size=bigger"
+      #right
+        h2 | {yourinfo}
+        p
+          {descript}
+        .shienlink
+          <a href="https://twitter.com/intent/tweet?screen_name={twitter}&url={url}&text={whatisgiftjp}を支援する。" class="shien" data-lang="ja" data-related="esehara">{name}を支援する</a>
+    
+    <script type="text/javascript">tweetCount('tweetCount')</script>

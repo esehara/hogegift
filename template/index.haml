@@ -1,0 +1,36 @@
+html
+  head
+    > link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'
+    > link rel='stylesheet' href='css/main.css' type='text/css'
+    title | {whatisgift}gift - {whatisgiftjp}支援プラットフォーム
+  body
+    #head
+      ul
+        li#title 
+          {whatisgift}gift
+          <span class="little"> - {whatisgiftjp}支援プラットフォーム - </span>
+    #body
+      form method="post" action="./index.py"
+        li
+          なにgift ?
+          > input type="text" size="30" name="giftname"
+        li 
+          なに支援 ?
+          > input type="text" name="giftnamejp"
+        li
+          誰を支援 ?
+          > input type="text" name="yourname"
+        li
+          twitterアカウントは？
+          > input type="text" name="twitteraccount"
+        li
+          あなたはどんな人？
+          > input class="long" type="text" name="yourinfo"
+        li
+          意気込み <br />
+          textarea name="descript" rows="5" | 頑張ります
+          > input type="submit" value="作成！"
+    div.well.sidebar-nav
+      ul.nav.navlist
+        li.nav-header | 支援してほしい人たち
+        {list}

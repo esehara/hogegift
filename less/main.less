@@ -1,0 +1,149 @@
+/*
+ * Hoge Gift
+ */
+
+ html,body {
+	 margin:0px;
+	 padding:0px;
+ }
+
+
+/*
+ * Header
+ */
+
+@base-dark : #335566;
+#head {
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	//Box Shadow
+	box-shadow: 0px 10px 10px #999;
+	-moz-box-shadow: 0px 10px 10px #999;
+	-webkit-box-shadow: 0px 10px 10px #999;
+
+
+	width:100%;
+	background-color: @base-dark;
+	
+	li {
+		display:inline;
+		list-style:none;
+	}
+
+	li.headerlink{
+		background-color:white;
+		padding:5px;
+		
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		
+		margin-left:25px;
+		a:link,a:visited {
+			color:black;
+		}
+	}
+
+	#title {
+	//Text Shadow
+	color:#EEE;
+	text-shadow: 1px 1px 1px #333;
+	text-shadow: -1px -1px 1px #333;
+		
+		a:link,a:visited {
+			color:white;
+		}
+
+		font-size:150%;
+		.little {
+			font-size:50%;
+		}
+	}
+}
+
+#body {
+	width: 90%;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	h1 {
+		font-size:500%;
+		line-height: 1.5em;
+	}
+
+	#left{
+		img {
+			float: left;
+			width: 300px;
+			height: 300px;
+		}
+	}
+
+	#right {
+		float:clear;
+		margin-left:350px;
+
+		a {
+			font-size:150%;
+		}
+
+		p {
+			margin-top:25px;
+		}
+
+		a:link,a:visited {
+			color:white;
+		}
+		
+		.support {
+			padding:5px;
+			font-size:125%;
+			color:white;
+			background-color: @base-dark;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+		}
+
+		.shienlink {
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+
+			text-align:center;
+			padding:25px;
+			background-color: @base-dark;
+			margin-top:50px;
+			box-shadow: 0px 10px 10px #999;
+			-moz-box-shadow: 0px 10px 10px #999;
+			-webkit-box-shadow: 0px 10px 10px #999;
+		}
+	}
+
+	li {
+		list-style:  none;
+		input {
+				width:30%;
+				height:1.5em;
+		}
+
+		input.long {
+			width:75%;
+		}
+		
+		textarea {
+				width:85%;
+		}
+
+		}
+}
+
+div.well {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}

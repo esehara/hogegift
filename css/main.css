@@ -1,0 +1,118 @@
+/*
+ * Hoge Gift
+ */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/*
+ * Header
+ */
+#head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 10px 10px #999;
+  -moz-box-shadow: 0px 10px 10px #999;
+  -webkit-box-shadow: 0px 10px 10px #999;
+  width: 100%;
+  background-color: #335566;
+}
+#head li {
+  display: inline;
+  list-style: none;
+}
+#head li.headerlink {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 25px;
+}
+#head li.headerlink a:link,
+#head li.headerlink a:visited {
+  color: black;
+}
+#head #title {
+  color: #EEE;
+  text-shadow: 1px 1px 1px #333;
+  text-shadow: -1px -1px 1px #333333;
+  font-size: 150%;
+}
+#head #title a:link,
+#head #title a:visited {
+  color: white;
+}
+#head #title .little {
+  font-size: 50%;
+}
+#body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#body h1 {
+  font-size: 500%;
+  line-height: 1.5em;
+}
+#body #left img {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+#body #right {
+  float: clear;
+  margin-left: 350px;
+}
+#body #right a {
+  font-size: 150%;
+}
+#body #right p {
+  margin-top: 25px;
+}
+#body #right a:link,
+#body #right a:visited {
+  color: white;
+}
+#body #right .support {
+  padding: 5px;
+  font-size: 125%;
+  color: white;
+  background-color: #335566;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+#body #right .shienlink {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  background-color: #335566;
+  margin-top: 50px;
+  box-shadow: 0px 10px 10px #999;
+  -moz-box-shadow: 0px 10px 10px #999;
+  -webkit-box-shadow: 0px 10px 10px #999;
+}
+#body li {
+  list-style: none;
+}
+#body li input {
+  width: 30%;
+  height: 1.5em;
+}
+#body li input.long {
+  width: 75%;
+}
+#body li textarea {
+  width: 85%;
+}
+div.well {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
