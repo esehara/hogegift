@@ -60,7 +60,6 @@ def goback():
 
 def main():
 	system = NotGift()
-	system.cgi_value["f"] = ["1337346488510741"]
 	if system.is_set():
 			system.set_file()
 			print("Content-type: text/html;charset=UTF-8")
